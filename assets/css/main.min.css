@@ -2157,12 +2157,12 @@ button {
   margin-left: -22px;
 }
 
-.footer .guide a {
+.footer .guide li a {
   padding-bottom: 19px;
   display: block;
 }
 
-.footer .guide a:hover {
+.footer .guide li a:hover {
   color: #fff;
   font-weight: 600;
 }
@@ -2171,7 +2171,7 @@ button {
   position: relative;
 }
 
-.footer .guide li.active a {
+.footer .guide li.current-menu-item a {
   font-weight: 600;
   color: #fff;
 }

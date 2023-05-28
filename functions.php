@@ -50,7 +50,8 @@ function wayup_setup() {
 	register_nav_menus(
 		array(
 			'menu-header' => esc_html__( 'Header Navigation', 'wayup' ),
-			'menu-footer' => esc_html__( 'Footer Navigation', 'wayup' ),
+			'menu-footer-1' => esc_html__( 'Footer Navigation 1', 'wayup' ),
+			'menu-footer-2' => esc_html__( 'Footer Navigation 2', 'wayup' ),
 		)
 	);
 

@@ -8,7 +8,9 @@
 
 			<!-- Social section -->
 			<?php get_template_part( 'template-parts/header/social' ); ?>
-			<p class="footer__special">Разработано специально для коучинга WAYUP</p>
+
+			<!-- <p class="footer__special">Разработано специально для коучинга WAYUP</p> -->
+			
 		</div>
 		<!-- Footer Nav -->
 		<?php get_template_part( 'template-parts/footer/nav' ); ?>

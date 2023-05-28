@@ -111,6 +111,15 @@ Redux::set_section(
 				'default'  => '',
 		),
 			array(
+				'id'       => 'footer_copyrights',
+				'type'     => 'editor',
+				'title'    => esc_html__( 'Copyrights', 'wayup' ),
+				'default' => esc_html__( '©2007-2018 Все права защищены', 'wayup' ),		
+				'args'     => array(
+
+				)
+		), 
+			array(
 				'id'       => 'footer_end',
 				'type'     => 'section',
 				'indent'   => true
