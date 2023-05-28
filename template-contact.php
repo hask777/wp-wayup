@@ -3,7 +3,7 @@
 /**
  * Template name: Template Contacts
  */
-
+get_header();
 ?>
 
 
