@@ -7,14 +7,14 @@ global $wayup_options;
 
 <div class="contact">
 	<!-- Title -->
-	<?php if(!empty($wayup_options['footer_title'])){?>
-		<p class="contact__title"><?php echo $wayup_options['footer_title'] ?></p>
-	<?}?>
+	<?php if($wayup_options['footer_contacts_title']){?>
+		<p class="contact__title"><?php echo $wayup_options['footer_contacts_title'] ?></p>
+	
 
 	<ul class="contact__list">
 
 		<!-- Address -->
-		<?php if(!empty($wayup_options['footer_address'])){?>
+		<?php if($wayup_options['footer_address']){?>
 			<li class="contact__item">
 				<svg width="20" height="25">
 					<use xlink:href="#pin" />
@@ -24,7 +24,7 @@ global $wayup_options;
 		<?}?>
 
 		<!-- Phones -->
-		<?php if(!empty($wayup_options['footer_phone_number'])){?>
+		<?php if($wayup_options['footer_phone_number']){?>
 			<li class="contact__item">
 				<svg width="21" height="21">
 					<use xlink:href="#phone" />
@@ -52,4 +52,5 @@ global $wayup_options;
 			</li>
 		<?}?>
 	</ul>
+	<?}?>
 </div>

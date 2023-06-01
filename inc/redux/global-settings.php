@@ -85,9 +85,21 @@ Redux::set_section(
 				'indent'   => true
 		),
 			array(
-				'id'       => 'footer_title',
+				'id'       => 'footer_menu_title',
 				'type'     => 'text',
-				'title'    => esc_html__( 'Section Title', 'wayup' ),
+				'title'    => esc_html__( 'Services Site Map Title', 'wayup' ),
+				'default'  => esc_html__( 'Карта сайта', 'wayup' ),
+		),
+			array(
+				'id'       => 'footer_services_title',
+				'type'     => 'text',
+				'title'    => esc_html__( 'Services Section Title', 'wayup' ),
+				'default'  => esc_html__( 'Услуги', 'wayup' ),
+		),
+			array(
+				'id'       => 'footer_contacts_title',
+				'type'     => 'text',
+				'title'    => esc_html__( 'Contacts Section Title', 'wayup' ),
 				'default'  => esc_html__( 'Контакты', 'wayup' ),
 		),
 			array(
